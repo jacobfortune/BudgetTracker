@@ -183,7 +183,7 @@ while track:
         elif trid == 6:
             expense1 = expense
             income1 = income
-            Balance = balance
+            balance = Balance
             balance1 = balance
             if len(income) > 1 and len(expense) > 1:
                 undone = True
