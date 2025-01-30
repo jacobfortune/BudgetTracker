@@ -185,18 +185,6 @@ while track:
             income1 = income
             balance = Balance
             balance1 = balance
-            if len(str(income)) > 1 and len(str(expense)) > 1:
-                undone = True
-                while undone == True:
-                    index2 = 2
-                    if len(str(income)) > index2 and len(str(expense)) > index2:
-                        number = 1 + "0" * index2
-                        index2 = index2 + 1
-                    elif len(str(income)) < index2 and len(str(expense)) < index2:
-                        undone = False
-                        income1 = income / int(number)
-                        expense1 = expense1 / int(number)
-                        balance1 = balance1 / int(number)
 
             print("E | " + "*" * int(expense1))
             print("X | " + "*" * int(expense1))
